@@ -1,3 +1,13 @@
+これは本家 jomo/imgur-screenshot のフォークです。
+
+違いは、
+
+1. URL を primary と clipboard に入れる。本家は clipboard のみ
+
+です。あと、print screen ボタンに xterm -e imgur-screenshot とすることを考えて、最後に read を入れるつもりです。入れないと端末が終了してしまいクリップボードも空になるからです。
+
+そんだけです。
+
 The _**Imgur-Screenshot**_ uploader for Linux & OS X from [imgur.com/tools](https://imgur.com/tools)<br>
 
 # Imgur-Screenshot
