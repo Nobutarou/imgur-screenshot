@@ -4,7 +4,10 @@
 
 1. URL を primary と clipboard に入れる。本家は clipboard のみ
 
-です。あと、print screen ボタンに xterm -e imgur-screenshot とすることを考えて、最後に read を入れるつもりです。入れないと端末が終了してしまいクリップボードも空になるからです。
+2. 最後に read を付ける。これはショートカットキーで mlterm -e imgur-screenshot.sh を実行
+	 したときに、コマンドが終って端末が閉じるとクリップボードの中身も消えてしまうのを防ぐた
+	 めです。
+
 
 そんだけです。
 

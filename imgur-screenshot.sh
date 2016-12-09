@@ -582,3 +582,5 @@ done
 if [ "${check_update}" = "true" ]; then
   check_for_update
 fi
+echo "何か押すと閉じます"
+read
